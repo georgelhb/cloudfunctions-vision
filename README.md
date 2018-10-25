@@ -5,4 +5,4 @@ The code shows how to use node.js runtime for cloud functions to invoke vision A
 file as type string, description as type string, score as type float
 3) Cloud Storage: Create a new Cloud Storage bucket if you don't have one
 4) Cloud Functions: Edit YOUR_PROJECT_ID in index.js and set to your project ID.
-5) Deploy: $ gcloud functions deploy analyze-image --runtime nodejs8 --trigger-resource YOUR_BUCKET_NAME --trigger-event google.storage.object.finalize
+5) Deploy: $ gcloud functions deploy analyzeImage --runtime nodejs8 --trigger-resource YOUR_BUCKET_NAME --trigger-event google.storage.object.finalize
