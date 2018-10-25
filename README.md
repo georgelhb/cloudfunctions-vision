@@ -1,3 +1,5 @@
+The code shows how to use node.js runtime for cloud functions to invoke vision API for image recognition and synchronously add the results to BigQuery for real-time analysis.
+
 1) Enable: Cloud Vision API.
 2) BigQuery: Create a new dataset named images_dataset in BigQuery; Create a new table named image_info with these fields:
 file as type string, description as type string, score as type float
