@@ -1,4 +1,4 @@
-const PROJECT_ID = 'YOUR_PROJECT_ID';
+const PROJECT_ID = 'PROJECT_ID';
 const DATASET_NAME = 'images_dataset';
 const TABLE_NAME = 'image_info';
 
